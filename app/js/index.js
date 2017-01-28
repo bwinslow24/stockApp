@@ -1,0 +1,5 @@
+$(function() {
+
+	$('.stock-quote').stockQuote();	
+
+});
