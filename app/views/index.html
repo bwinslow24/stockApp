@@ -25,11 +25,13 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
-        Twitter:  <span class="stock-quote" data-symbol="TWTR"></span><br><br>
-        Facebook: <span class="stock-quote" data-symbol="FB"></span><br><br>
-        Google:   <span class="stock-quote" data-symbol="GOOGL"></span><br><br>
-        Netflix:  <span class="stock-quote" data-symbol="NTFLX"></span><br><br>
-        Yahoo:    <span class="stock-quote" data-symbol="YHOO"></span><br><br>
+        <label for="email">Enter Stock Symbol: </label>
+        <input type="text" class="form-control" id="stock">
+        <button type="button" class="btn btn-default" id="stock-submit">Find Stock Price</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4" id="stock-info">
       </div>
     </div>
   </div>
